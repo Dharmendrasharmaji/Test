@@ -1,0 +1,32 @@
+------------------------------------Register USER--------------------
+
+git config --global user.name "abc"
+git config --global user.email "xyz"
+
+------------------------------------To View USER------------------------
+
+git config --global user.name 	- to know user name
+git config --global user.email	- to know user email
+
+whoami	- to know user name
+
+ls	 - to show dir
+ls -l  - to show dir with more details
+
+-----------------------------------PUSH Local Files to Repository------
+
+git remote add origin REPO_URL 	- to connect repository
+git remote -v				- to show all repostiory
+
+git init					- to initialize empty git repository
+git add .					- to add all files to be committed
+git status					- to know commited file status
+
+git commit -m "First commit"		- to commit to local repo	
+git push origin master			- to push to GITHUB repo
+
+-------------------------------------PULL Repositories from GIT to Local----------------------------------
+
+git init
+git clone REPO_URL
+git pull REPO_URL

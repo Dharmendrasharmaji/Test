@@ -14,6 +14,9 @@ ls	 - to show dir
 ls -l  - to show dir with more details
 
 -----------------------------------PUSH Local Files to Repository------
+git remote remove origin  --- to remove existing origin 
+
+git restore --stage file_name  -- to remote staging file
 
 git remote add origin REPO_URL 	- to connect repository
 git remote -v				- to show all repostiory
